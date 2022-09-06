@@ -582,12 +582,12 @@ video {
   right: 0px;
 }
 
-.top-20 {
-  top: 5rem;
+.top-36 {
+  top: 9rem;
 }
 
-.right-\[-100\%\] {
-  right: -100%;
+.top-1\/2 {
+  top: 50%;
 }
 
 .top-\[-45vh\] {
@@ -596,6 +596,10 @@ video {
 
 .right-\[-3vw\] {
   right: -3vw;
+}
+
+.right-\[-100\%\] {
+  right: -100%;
 }
 
 .right-10 {
@@ -644,8 +648,8 @@ video {
   height: fit-content;
 }
 
-.h-\[90\%\] {
-  height: 90%;
+.h-\[80\%\] {
+  height: 80%;
 }
 
 .h-6 {
@@ -656,38 +660,46 @@ video {
   height: 20rem;
 }
 
+.h-28 {
+  height: 7rem;
+}
+
+.h-40 {
+  height: 10rem;
+}
+
 .w-fit {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
 }
 
-.w-80 {
-  width: 20rem;
+.w-1\/2 {
+  width: 50%;
 }
 
 .w-full {
   width: 100%;
 }
 
-.w-\[1200px\] {
-  width: 1200px;
-}
-
-.w-1\/2 {
-  width: 50%;
-}
-
 .w-screen {
   width: 100vw;
 }
 
-.w-\[90\%\] {
-  width: 90%;
+.w-\[80\%\] {
+  width: 80%;
 }
 
 .w-6 {
   width: 1.5rem;
+}
+
+.w-\[1200px\] {
+  width: 1200px;
+}
+
+.w-80 {
+  width: 20rem;
 }
 
 .w-32 {
@@ -708,6 +720,10 @@ video {
 
 .w-20 {
   width: 5rem;
+}
+
+.w-28 {
+  width: 7rem;
 }
 
 .transform {
@@ -795,16 +811,48 @@ video {
   background-color: rgb(6 95 70 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\/road-map-win-travel\/src\/img\/bg\.jpeg\'\)\] {
-  background-image: url('/road-map-win-travel/src/img/bg.jpeg');
+.bg-\[url\(\'\/src\/img\/bg\.jpeg\'\)\] {
+  background-image: url('/src/img/bg.jpeg');
 }
 
-.bg-\[url\(\'\/road-map-win-travel\/src\/img\/MG_6093-94\.jpg\'\)\] {
-  background-image: url('/road-map-win-travel/src/img/MG_6093-94.jpg');
+.bg-\[url\(\'\/src\/img\/_MG_6093-94\.jpg\'\)\] {
+  background-image: url('/src/img/_MG_6093-94.jpg');
 }
 
 .bg-\[url\(\'https\:\/\/www\.airpano\.ru\/photogallery\/images_1550\/324_999448\.jpg\'\)\] {
   background-image: url('https://www.airpano.ru/photogallery/images_1550/324_999448.jpg');
+}
+
+.bg-\[url\(\'src\/img\/lake_bg\.jpeg\'\)\] {
+  background-image: url('src/img/lake_bg.jpeg');
+}
+
+.bg-\[url\(\'\/src\/img\/lake_bg\.jpeg\'\)\] {
+  background-image: url('/src/img/lake_bg.jpeg');
+}
+
+.bg-\[url\(\'\/src\/img\/title-bg\.jpeg\'\)\] {
+  background-image: url('/src/img/title-bg.jpeg');
+}
+
+.bg-\[url\(\'\/src\/img\/mountain-bg\'\)\] {
+  background-image: url('/src/img/mountain-bg');
+}
+
+.bg-\[url\(\'\/src\/img\/mountain-bg\.jpg\'\)\] {
+  background-image: url('/src/img/mountain-bg.jpg');
+}
+
+.bg-\[url\(\'\/src\/img\/title-bg\.webp\'\)\] {
+  background-image: url('/src/img/title-bg.webp');
+}
+
+.bg-\[url\(\'\/src\/img\/mountain-bg\.webp\'\)\] {
+  background-image: url('/src/img/mountain-bg.webp');
+}
+
+.bg-\[url\(\'\/src\/img\/lake_bg\.webp\'\)\] {
+  background-image: url('/src/img/lake_bg.webp');
 }
 
 .bg-cover {
@@ -823,29 +871,69 @@ video {
   background-repeat: no-repeat;
 }
 
-.p-20 {
-  padding: 5rem;
+.p-5 {
+  padding: 1.25rem;
+}
+
+.p-3 {
+  padding: 0.75rem;
 }
 
 .p-4 {
   padding: 1rem;
 }
 
-.p-12 {
-  padding: 3rem;
+.p-20 {
+  padding: 5rem;
 }
 
-.p-5 {
-  padding: 1.25rem;
+.p-12 {
+  padding: 3rem;
 }
 
 .pt-10 {
   padding-top: 2.5rem;
 }
 
+.text-right {
+  text-align: right;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.leading-5 {
+  line-height: 1.25rem;
 }
 
 .text-white {
@@ -863,4 +951,155 @@ video {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
+}
+
+@media (min-width: 640px) {
+  .sm\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .sm\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .sm\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:h-80 {
+    height: 20rem;
+  }
+
+  .md\:w-\[80\%\] {
+    width: 80%;
+  }
+
+  .md\:w-1\/2 {
+    width: 50%;
+  }
+
+  .md\:w-80 {
+    width: 20rem;
+  }
+
+  .md\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .md\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .md\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .md\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:inset-0 {
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+  }
+
+  .lg\:top-20 {
+    top: 5rem;
+  }
+
+  .lg\:block {
+    display: block;
+  }
+
+  .lg\:h-\[90\%\] {
+    height: 90%;
+  }
+
+  .lg\:h-80 {
+    height: 20rem;
+  }
+
+  .lg\:w-80 {
+    width: 20rem;
+  }
+
+  .lg\:w-1\/2 {
+    width: 50%;
+  }
+
+  .lg\:w-\[90\%\] {
+    width: 90%;
+  }
+
+  .lg\:w-\[80\%\] {
+    width: 80%;
+  }
+
+  .lg\:w-fit {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+
+  .lg\:w-32 {
+    width: 8rem;
+  }
+
+  .lg\:w-48 {
+    width: 12rem;
+  }
+
+  .lg\:w-36 {
+    width: 9rem;
+  }
+
+  .lg\:w-40 {
+    width: 10rem;
+  }
+
+  .lg\:flex-row {
+    flex-direction: row;
+  }
+
+  .lg\:flex-row-reverse {
+    flex-direction: row-reverse;
+  }
+
+  .lg\:flex-col {
+    flex-direction: column;
+  }
+
+  .lg\:items-start {
+    align-items: flex-start;
+  }
+
+  .lg\:items-end {
+    align-items: flex-end;
+  }
+
+  .lg\:p-20 {
+    padding: 5rem;
+  }
+
+  .lg\:p-4 {
+    padding: 1rem;
+  }
+
+  .lg\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
 }
