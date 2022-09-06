@@ -192,25 +192,6 @@
             </span>
         </div>
     </div>
-  <script type="text/javascript" src="/road-map-win-travel/src/js/vanilla-tilt.min.js"></script>
-  <script type="text/javascript">
-    document.addEventListener("mousemove", parallax);
-    function parallax(e){
-      document.querySelectorAll(".logo").forEach(function(move){
-
-        var moving_value = move.getAttribute("data-value");
-        var x = (e.clientX * moving_value) / 250;
-        var y = (e.clientY * moving_value) / 250;
-
-        move.style.transform = "translateX(" + x + "px) translateY(" + y + "px)";
-      });
-    };
-    VanillaTilt.init(document.querySelectorAll(".lot"), {
-        transition: true,
-        reverse: false,
-		max: 15,
-		speed: 100
-	});
 </script>
 </body>
 </html> 
